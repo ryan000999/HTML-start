@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+        function myFunction(){
+            document.getElementById("first-text").innerHTML = "Changed!";        
+        }
+        function sumary(){
+            let meg = document.getElementById("america").innerHTML
+            alert(meg)
+        }
+    </script>
+  </head>
+  <body>
+    <p id="first-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat in rerum
+      aperiam consequuntur eos molestiae fugit laboriosam, nulla temporibus ut
+      odio. Excepturi, officia consectetur voluptas deserunt nam blanditiis
+      ullam illum?
+    </p>
+    <button type="button" onclick="myFunction()">
+        click
+    </button>
+    <p class="usa" id="america" title="Joe Biden is a great president">
+        Joe Biden is old, and smart.He did his jobs well,not for me
+    </p>
+    <button type="button" onclick="sumary()">
+        Show
+    </button>
+  </body>
+</html>
